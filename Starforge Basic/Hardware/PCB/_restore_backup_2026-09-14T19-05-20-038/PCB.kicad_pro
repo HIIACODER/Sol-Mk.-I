@@ -692,7 +692,7 @@
         "uuid": "baf65b9d-8965-47ba-bcd0-4660d1815206"
       }
     ],
-    "used_designators": "U1-8,R1-21,J1,L1-4,#PWR1-95,#PWR99-102,C1-25,C28-29,CN1-7,Card1,D1,LED1-2,USB1,X1-2,SW1",
+    "used_designators": "U1-8,R1-18,J1,L1-4,#PWR1-95,C1-25,CN1-7,Card1,D1,LED1-2,USB1,X1-2",
     "variants": []
   },
   "sheets": [
