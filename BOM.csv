@@ -1,15 +1,15 @@
-Line #,Category,Reference Designator(s),Qty per Board,Description,Manufacturer,Manufacturer Part Number,Package / Footprint,LCSC Part #,Datasheet / Product Link,Notes
+Line #,Category,Reference Designator(s),Qty per Board,Description,Manufacturer,Manufacturer Part Number,Package / Footprint,LCSC,Datasheet / Product Link,Notes
 1,Capacitor,C1,1,1uF +/-10% 25V X5R Ceramic Capacitor,Samsung,CL05A105KA5NQNC,0402,C52923,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KA5NQNC_1uF-105-10-25V_C52923.html,
 2,Capacitor,"C2,C5,C7,C10,C11,C12,C21,C23,C24,C25,C26,C27",12,10uF +/-10% 25V X5R Ceramic Capacitor,Samsung,CL21A106KAYNNNE,0805,C15850,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KAYNNNE_10uF-106-10-25V_C15850.html,
 3,Capacitor,"C3,C4",2,22uF +/-20% 25V X5R Ceramic Capacitor,Samsung,CL21A226MAQNNNE,0805,C45783,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A226MAQNNNE_22uF-226-20-25V_C45783.html,
 4,Capacitor,C6,1,4.7uF +/-10% 16V X5R Ceramic Capacitor,Samsung,CL10A475KO8NNNC,0603,C19666,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A475KO8NNNC_4-7uF-475-10-16V_C19666.html,
 5,Capacitor,C8,1,47nF +/-10% 50V Ceramic Capacitor,-,0402B473K500NT,0402,C82219,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_47nF-473-10-50V_C82219.html,
 6,Capacitor,"C9,C15,C16,C17,C18,C19,C20,C22",8,100nF +/-10% 16V X5R Ceramic Capacitor,Samsung,CL05B104KO5NNNC,0402,C1525,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html,
-7,Capacitor,"C13,C14",2,27pF +/-5% 50V C0G/NP0 Ceramic Capacitor,-,CC0402JRNPO9BN270,0402,C107002,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_27pF-270-5-50V_C107002.html,Likely crystal load caps (near X2)
+7,Capacitor,"C13,C14",2,27pF +/-5% 50V C0G/NP0 Ceramic Capacitor,-,CC0402JRNPO9BN270,0402,C107002,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_27pF-270-5-50V_C107002.html,Crystal load capacitors (near X2)
 8,Connector,Card1,1,"MicroSD Card Socket, push-push",-,TF-01A,TF-SMD,C91145,https://lcsc.com/product-detail/Card-Sockets_TF-01A_C91145.html,Onboard data logging
 9,Connector,CN1,1,"XT30 Battery Connector, male, PCB mount",Amass,XT30UPB-M,TH,C428721,https://lcsc.com/product-detail/Power-Connectors_Changzhou-Amass-Elec-XT30UPB-M_C428721.html,LiPo battery input
 10,Protection,D1,1,USB ESD Protection Diode Array,STMicroelectronics,USBLC6-2SC6,SOT-23-6,C7519,https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-2SC6_USBLC6-2SC6_C7519.html,USB-C line protection
-11,Connector,J1,1,"USB Type-C Connector, SMD, 16-pin",-,HX-TYPE-C-16PIN,USB-C SMD 16P,-,https://atta.szlcsc.com/upload/public/pdf/source/20220920/0EF8F885FCCEA71F60E9E85152155021.pdf,"Not an LCSC product page - datasheet PDF only, verify sourcing"
+11,Connector,J1,1,"USB Type-C Connector, SMD, 16-pin",DEALON,HX-TYPE-C-16PIN,USB-C SMD 16P,C2927039,https://www.lcsc.com/product-detail/C2927039.html,
 12,Inductor,L1,1,1uH +/-30% Power Inductor,-,SWPA4030S1R0NT,SMD 4.0x4.0mm,C42193,https://lcsc.com/product-detail/Power-Inductors_1uH-30_C42193.html,Buck converter (U6) inductor
 13,Inductor,L2,1,2.2uH +/-20% Power Inductor,-,SMNR4020-2.2UH,SMD 4.0x4.0mm,C135262,https://lcsc.com/product-detail/Power-Inductors_2-2uH-20_C135262.html,
 14,Inductor,L3,1,4.7uH +/-20% Power Inductor,-,SWPA3015S4R7MT,SMD 3.0x3.0mm,C19398,https://lcsc.com/product-detail/Power-Inductors_4-7uH-20_C19398.html,Buck-boost converter (U7) inductor
@@ -33,5 +33,5 @@ Line #,Category,Reference Designator(s),Qty per Board,Description,Manufacturer,M
 32,IC - Power,U6,1,3A Synchronous Step-Down (Buck) Converter,Texas Instruments,LMR51430YFDDCR,SOT-23-6,C5219261,https://www.lcsc.com/datasheet/C5219261.pdf,
 33,IC - Power,U7,1,Buck-Boost Converter,Texas Instruments,TPS630701RNMR,VQFN-HR-15,C2876599,https://www.lcsc.com/datasheet/C2876599.pdf,
 34,IC - Memory,U8,1,128Mbit SPI NOR Flash Memory,GigaDevice,GD25Q128ESIGR,SOP-8,C2928891,https://www.lcsc.com/datasheet/C2928891.pdf,Onboard flight data logging
-35,Connector,"U9,U10,U11,U12",4,3-Pin 2.54mm Pin/Screw Terminal Header,Cixi Kefa,KF128-2.54-3P,TH 2.54mm,C474921,https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF128-2-54-3P_C474921.html,Servo connections (confirmed by mentor)
+35,Connector,"U9,U10,U11,U12",4,3-Pin 2.54mm Pin/Screw Terminal Header,Cixi Kefa,KF128-2.54-3P,TH 2.54mm,C474921,https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF128-2-54-3P_C474921.html,Servo connections
 36,Crystal,X2,1,12MHz Crystal Oscillator,-,X322512MSB4SI,SMD 4-pin,C9002,https://lcsc.com/product-detail/SMD-Crystals_YSX321SL-12MHZ-20PF-10PPM-40-85_C9002.html,MCU clock reference
