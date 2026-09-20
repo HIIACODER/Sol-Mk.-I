@@ -6,7 +6,6 @@
 "C8","1","0402B473K500NT","","","","easyeda2kicad:C0402","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_47nF-473-10-50V_C82219.html"
 "C9,C15,C16,C17,C18,C19,C20,C22","8","CL05B104KO5NNNC","","","","easyeda2kicad:C0402","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
 "C13,C14","2","CC0402JRNPO9BN270","","","","easyeda2kicad:C0402","https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_27pF-270-5-50V_C107002.html"
-"C28,C29","2","470 uF","","","","Capacitor_SMD:CP_Elec_8x10.5",""
 "Card1","1","TF-01A","","","","easyeda2kicad:TF-SMD_TF-01A","https://lcsc.com/product-detail/Card-Sockets_TF-01A_C91145.html"
 "CN1","1","XT30UPB-M","","","","easyeda2kicad:CONN-TH_XT30UPB-M","https://lcsc.com/product-detail/Power-Connectors_Changzhou-Amass-Elec-XT30UPB-M_C428721.html"
 "D1","1","USBLC6-2SC6","","","","easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL","https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-2SC6_USBLC6-2SC6_C7519.html"
