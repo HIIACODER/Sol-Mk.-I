@@ -1,37 +1,38 @@
-Line #,Category,Reference Designator(s),Qty per Board,Description,Manufacturer,Manufacturer Part Number,Package / Footprint,LCSC,Datasheet / Product Link,Notes
-1,Capacitor,C1,1,1uF +/-10% 25V X5R Ceramic Capacitor,Samsung,CL05A105KA5NQNC,0402,C52923,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KA5NQNC_1uF-105-10-25V_C52923.html,
-2,Capacitor,"C2,C5,C7,C10,C11,C12,C21,C23,C24,C25,C26,C27",12,10uF +/-10% 25V X5R Ceramic Capacitor,Samsung,CL21A106KAYNNNE,0805,C15850,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KAYNNNE_10uF-106-10-25V_C15850.html,
-3,Capacitor,"C3,C4",2,22uF +/-20% 25V X5R Ceramic Capacitor,Samsung,CL21A226MAQNNNE,0805,C45783,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A226MAQNNNE_22uF-226-20-25V_C45783.html,
-4,Capacitor,C6,1,4.7uF +/-10% 16V X5R Ceramic Capacitor,Samsung,CL10A475KO8NNNC,0603,C19666,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A475KO8NNNC_4-7uF-475-10-16V_C19666.html,
-5,Capacitor,C8,1,47nF +/-10% 50V Ceramic Capacitor,-,0402B473K500NT,0402,C82219,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_47nF-473-10-50V_C82219.html,
-6,Capacitor,"C9,C15,C16,C17,C18,C19,C20,C22",8,100nF +/-10% 16V X5R Ceramic Capacitor,Samsung,CL05B104KO5NNNC,0402,C1525,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html,
-7,Capacitor,"C13,C14",2,27pF +/-5% 50V C0G/NP0 Ceramic Capacitor,-,CC0402JRNPO9BN270,0402,C107002,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_27pF-270-5-50V_C107002.html,Crystal load capacitors (near X2)
-8,Connector,Card1,1,"MicroSD Card Socket, push-push",-,TF-01A,TF-SMD,C91145,https://lcsc.com/product-detail/Card-Sockets_TF-01A_C91145.html,Onboard data logging
-9,Connector,CN1,1,"XT30 Battery Connector, male, PCB mount",Amass,XT30UPB-M,TH,C428721,https://lcsc.com/product-detail/Power-Connectors_Changzhou-Amass-Elec-XT30UPB-M_C428721.html,LiPo battery input
-10,Protection,D1,1,USB ESD Protection Diode Array,STMicroelectronics,USBLC6-2SC6,SOT-23-6,C7519,https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-2SC6_USBLC6-2SC6_C7519.html,USB-C line protection
-11,Connector,J1,1,"USB Type-C Connector, SMD, 16-pin",DEALON,HX-TYPE-C-16PIN,USB-C SMD 16P,C2927039,https://www.lcsc.com/product-detail/C2927039.html,
-12,Inductor,L1,1,1uH +/-30% Power Inductor,-,SWPA4030S1R0NT,SMD 4.0x4.0mm,C42193,https://lcsc.com/product-detail/Power-Inductors_1uH-30_C42193.html,Buck converter (U6) inductor
-13,Inductor,L2,1,2.2uH +/-20% Power Inductor,-,SMNR4020-2.2UH,SMD 4.0x4.0mm,C135262,https://lcsc.com/product-detail/Power-Inductors_2-2uH-20_C135262.html,
-14,Inductor,L3,1,4.7uH +/-20% Power Inductor,-,SWPA3015S4R7MT,SMD 3.0x3.0mm,C19398,https://lcsc.com/product-detail/Power-Inductors_4-7uH-20_C19398.html,Buck-boost converter (U7) inductor
-15,Inductor,L4,1,1.5uH +/-30% Power Inductor,-,SWPA6045S1R5NT,SMD 6.0x6.0mm,C96956,https://lcsc.com/product-detail/Power-Inductors_1-5uH-30_C96956.html,
-16,LED,LED1,1,White LED,-,0603White light_C2290,0603,C2290,https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html,Status indicator
-17,LED,LED2,1,Red LED,-,KT-0603R,0603,C2286,https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html,Status indicator
-18,Resistor,"R1,R2,R3,R4,R12,R13,R14,R15,R16",9,10k ohm +/-1% Resistor,UniOhm,0402WGF1002TCE,0402,C25744,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html,
-19,Resistor,"R5,R6,R19",3,1k ohm +/-1% Resistor,UniOhm,0402WGF1001TCE,0402,C11702,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-1001-1_C11702.html,
-20,Resistor,"R7,R9",2,5.1k ohm +/-1% Resistor,UniOhm,0402WGF5101TCE,0402,C25905,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C25905.html,
-21,Resistor,R8,1,100k ohm +/-1% Resistor,UniOhm,0603WAF1003T5E,0603,C25803,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100KR-1003-1_C25803.html,
-22,Resistor,R10,1,22k ohm +/-1% Resistor,UniOhm,0603WAF2202T5E,0603,C31850,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_22KR-2202-1_C31850.html,
-23,Resistor,R11,1,200 ohm +/-1% Resistor,UniOhm,0402WGF2000TCE,0402,C25087,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_200R-2000-1_C25087.html,
-24,Resistor,"R17,R18",2,27 ohm +/-5% Resistor,UniOhm,0402WGF270JTCE,0402,C25100,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_27R-27R0-1_C25100.html,
-25,Resistor,"R20,R21",2,4.7k ohm +/-1% Resistor,UniOhm,0402WGF4701TCE,0402,C25900,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_4-7KR-4701-1_C25900.html,
-26,Switch,SW1,1,"Tactile Push Button Switch, SMD 4-pin",XKB Enterprise,TS-1187A-B-A-B,SMD 5.1x5.1mm,C318884,https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html,Reset / boot button
-27,IC - MCU,U1,1,RP2350B Dual-Core Microcontroller (Cortex-M33 / Hazard3 RISC-V),Raspberry Pi,RP2350B,QFN-80,C42415655,https://www.lcsc.com/datasheet/C42415655.pdf,Main flight computer MCU
-28,Connector,U2,1,2-Pin 2.54mm Pin/Screw Terminal Header,Cixi Kefa,KF128-2.54-2P,TH 2.54mm,C474920,https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF128-2-54-2P_C474920.html,
-29,IC - Sensor,U3,1,Barometric Pressure Sensor,Bosch Sensortec,BMP581,LGA-10,C5362283,https://www.lcsc.com/datasheet/C5362283.pdf,Altitude / apogee sensing
-30,IC - Sensor,U4,1,6-Axis IMU (3-axis Accel + 3-axis Gyro),TDK InvenSense,ICM-45686,LGA-14,C22459454,https://www.lcsc.com/datasheet/C22459454.pdf,Flight dynamics / attitude sensing
-31,IC - Power,U5,1,Li-Ion / LiPo Linear Battery Charger IC,Texas Instruments,BQ25883RGER,VQFN-24,C544362,https://www.lcsc.com/datasheet/C544362.pdf,USB-C battery charging
-32,IC - Power,U6,1,3A Synchronous Step-Down (Buck) Converter,Texas Instruments,LMR51430YFDDCR,SOT-23-6,C5219261,https://www.lcsc.com/datasheet/C5219261.pdf,
-33,IC - Power,U7,1,Buck-Boost Converter,Texas Instruments,TPS630701RNMR,VQFN-HR-15,C2876599,https://www.lcsc.com/datasheet/C2876599.pdf,
-34,IC - Memory,U8,1,128Mbit SPI NOR Flash Memory,GigaDevice,GD25Q128ESIGR,SOP-8,C2928891,https://www.lcsc.com/datasheet/C2928891.pdf,Onboard flight data logging
-35,Connector,"U9,U10,U11,U12",4,3-Pin 2.54mm Pin/Screw Terminal Header,Cixi Kefa,KF128-2.54-3P,TH 2.54mm,C474921,https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF128-2-54-3P_C474921.html,Servo connections
-36,Crystal,X2,1,12MHz Crystal Oscillator,-,X322512MSB4SI,SMD 4-pin,C9002,https://lcsc.com/product-detail/SMD-Crystals_YSX321SL-12MHZ-20PF-10PPM-40-85_C9002.html,MCU clock reference
+Line #,Category,Reference Designator(s),Qty per Board,Description,Manufacturer,Manufacturer Part Number,Package / Footprint,LCSC,Unit Price (USD),Cost / Board (USD),Datasheet / Product Link,Notes
+1,Capacitor,C1,1,1uF +/-10% 25V X5R Ceramic Capacitor,Samsung,CL05A105KA5NQNC,0402,C52923,0.0099,0.0099,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KA5NQNC_1uF-105-10-25V_C52923.html,
+2,Capacitor,"C2,C5,C7,C10,C11,C12,C21,C23,C24,C25,C26,C27",12,10uF +/-10% 25V X5R Ceramic Capacitor,Samsung,CL21A106KAYNNNE,0805,C15850,0.0844,1.0128,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KAYNNNE_10uF-106-10-25V_C15850.html,
+3,Capacitor,"C3,C4",2,22uF +/-20% 25V X5R Ceramic Capacitor,Samsung,CL21A226MAQNNNE,0805,C45783,0.2221,0.4442,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A226MAQNNNE_22uF-226-20-25V_C45783.html,
+4,Capacitor,C6,1,4.7uF +/-10% 16V X5R Ceramic Capacitor,Samsung,CL10A475KO8NNNC,0603,C19666,0.0295,0.0295,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A475KO8NNNC_4-7uF-475-10-16V_C19666.html,
+5,Capacitor,C8,1,47nF +/-10% 50V Ceramic Capacitor,-,0402B473K500NT,0402,C82219,0.0059,0.0059,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_47nF-473-10-50V_C82219.html,
+6,Capacitor,"C9,C15,C16,C17,C18,C19,C20,C22",8,100nF +/-10% 16V X5R Ceramic Capacitor,Samsung,CL05B104KO5NNNC,0402,C1525,0.0045,0.0360,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html,
+7,Capacitor,"C13,C14",2,27pF +/-5% 50V C0G/NP0 Ceramic Capacitor,-,CC0402JRNPO9BN270,0402,C107002,0.0021,0.0042,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_27pF-270-5-50V_C107002.html,Crystal load capacitors (near X2)
+8,Connector,Card1,1,"MicroSD Card Socket, push-push",-,TF-01A,TF-SMD,C91145,0.1921,0.1921,https://lcsc.com/product-detail/Card-Sockets_TF-01A_C91145.html,Onboard data logging
+9,Connector,CN1,1,"XT30 Battery Connector, male, PCB mount",Amass,XT30UPB-M,TH,C428721,0.2623,0.2623,https://lcsc.com/product-detail/Power-Connectors_Changzhou-Amass-Elec-XT30UPB-M_C428721.html,LiPo battery input
+10,Protection,D1,1,USB ESD Protection Diode Array,STMicroelectronics,USBLC6-2SC6,SOT-23-6,C7519,0.1763,0.1763,https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-2SC6_USBLC6-2SC6_C7519.html,USB-C line protection
+11,Connector,J1,1,"USB Type-C Connector, SMD, 16-pin",DEALON,HX-TYPE-C-16PIN,USB-C SMD 16P,C2927039,0.0643,0.0643,https://www.lcsc.com/product-detail/C2927039.html,
+12,Inductor,L1,1,1uH +/-30% Power Inductor,-,SWPA4030S1R0NT,SMD 4.0x4.0mm,C42193,0.0569,0.0569,https://lcsc.com/product-detail/Power-Inductors_1uH-30_C42193.html,Buck converter (U6) inductor
+13,Inductor,L2,1,2.2uH +/-20% Power Inductor,-,SMNR4020-2.2UH,SMD 4.0x4.0mm,C135262,0.0585,0.0585,https://lcsc.com/product-detail/Power-Inductors_2-2uH-20_C135262.html,
+14,Inductor,L3,1,4.7uH +/-20% Power Inductor,-,SWPA3015S4R7MT,SMD 3.0x3.0mm,C19398,0.0645,0.0645,https://lcsc.com/product-detail/Power-Inductors_4-7uH-20_C19398.html,Buck-boost converter (U7) inductor
+15,Inductor,L4,1,1.5uH +/-30% Power Inductor,-,SWPA6045S1R5NT,SMD 6.0x6.0mm,C96956,0.0772,0.0772,https://lcsc.com/product-detail/Power-Inductors_1-5uH-30_C96956.html,
+16,LED,LED1,1,White LED,-,0603White light_C2290,0603,C2290,0.0122,0.0122,https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html,Status indicator
+17,LED,LED2,1,Red LED,-,KT-0603R,0603,C2286,0.0075,0.0075,https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html,Status indicator
+18,Resistor,"R1,R2,R3,R4,R12,R13,R14,R15,R16",9,10k ohm +/-1% Resistor,UniOhm,0402WGF1002TCE,0402,C25744,0.0034,0.0306,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html,
+19,Resistor,"R5,R6,R19",3,1k ohm +/-1% Resistor,UniOhm,0402WGF1001TCE,0402,C11702,0.0022,0.0066,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-1001-1_C11702.html,
+20,Resistor,"R7,R9",2,5.1k ohm +/-1% Resistor,UniOhm,0402WGF5101TCE,0402,C25905,0.0024,0.0048,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C25905.html,
+21,Resistor,R8,1,100k ohm +/-1% Resistor,UniOhm,0603WAF1003T5E,0603,C25803,0.0031,0.0031,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100KR-1003-1_C25803.html,
+22,Resistor,R10,1,22k ohm +/-1% Resistor,UniOhm,0603WAF2202T5E,0603,C31850,0.0041,0.0041,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_22KR-2202-1_C31850.html,
+23,Resistor,R11,1,200 ohm +/-1% Resistor,UniOhm,0402WGF2000TCE,0402,C25087,0.0029,0.0029,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_200R-2000-1_C25087.html,
+24,Resistor,"R17,R18",2,27 ohm +/-5% Resistor,UniOhm,0402WGF270JTCE,0402,C25100,0.0021,0.0042,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_27R-27R0-1_C25100.html,
+25,Resistor,"R20,R21",2,4.7k ohm +/-1% Resistor,UniOhm,0402WGF4701TCE,0402,C25900,0.0027,0.0054,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_4-7KR-4701-1_C25900.html,
+26,Switch,SW1,1,"Tactile Push Button Switch, SMD 4-pin",XKB Enterprise,TS-1187A-B-A-B,SMD 5.1x5.1mm,C318884,0.0206,0.0206,https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html,Reset / boot button
+27,IC - MCU,U1,1,RP2350B Dual-Core Microcontroller (Cortex-M33 / Hazard3 RISC-V),Raspberry Pi,RP2350B,QFN-80,C42415655,1.2810,1.2810,https://www.lcsc.com/datasheet/C42415655.pdf,Main flight computer MCU
+28,Connector,U2,1,2-Pin 2.54mm Pin/Screw Terminal Header,Cixi Kefa,KF128-2.54-2P,TH 2.54mm,C474920,0.2295,0.2295,https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF128-2-54-2P_C474920.html,
+29,IC - Sensor,U3,1,Barometric Pressure Sensor,Bosch Sensortec,BMP581,LGA-10,C5362283,2.8011,2.8011,https://www.lcsc.com/datasheet/C5362283.pdf,Altitude / apogee sensing
+30,IC - Sensor,U4,1,6-Axis IMU (3-axis Accel + 3-axis Gyro),TDK InvenSense,ICM-45686,LGA-14,C22459454,11.8620,11.8620,https://www.lcsc.com/datasheet/C22459454.pdf,Flight dynamics / attitude sensing
+31,IC - Power,U5,1,Li-Ion / LiPo Linear Battery Charger IC,Texas Instruments,BQ25883RGER,VQFN-24,C544362,4.2464,4.2464,https://www.lcsc.com/datasheet/C544362.pdf,USB-C battery charging
+32,IC - Power,U6,1,3A Synchronous Step-Down (Buck) Converter,Texas Instruments,LMR51430YFDDCR,SOT-23-6,C5219261,0.8399,0.8399,https://www.lcsc.com/datasheet/C5219261.pdf,
+33,IC - Power,U7,1,Buck-Boost Converter,Texas Instruments,TPS630701RNMR,VQFN-HR-15,C2876599,1.6065,1.6065,https://www.lcsc.com/datasheet/C2876599.pdf,
+34,IC - Memory,U8,1,128Mbit SPI NOR Flash Memory,GigaDevice,GD25Q128ESIGR,SOP-8,C2928891,1.5267,1.5267,https://www.lcsc.com/datasheet/C2928891.pdf,Onboard flight data logging
+35,Connector,"U9,U10,U11,U12",4,3-Pin 2.54mm Pin/Screw Terminal Header,Cixi Kefa,KF128-2.54-3P,TH 2.54mm,C474921,0.4649,1.8596,https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF128-2-54-3P_C474921.html,Servo connections
+36,Crystal,X2,1,12MHz Crystal Oscillator,-,X322512MSB4SI,SMD 4-pin,C9002,0.0949,0.0949,https://lcsc.com/product-detail/SMD-Crystals_YSX321SL-12MHZ-20PF-10PPM-40-85_C9002.html,MCU clock reference
+,,,,BOARD TOTAL (cost per one board),,,,,,28.94,,
