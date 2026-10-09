@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -159,7 +159,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -211,6 +211,7 @@
       ],
       "track_widths": [
         0.0,
+        0.127,
         0.2,
         0.3,
         0.5,
@@ -668,7 +669,7 @@
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
-      "default_text_size": 30.0,
+      "default_text_size": 50.0,
       "field_names": [],
       "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
@@ -711,7 +712,7 @@
         "uuid": "baf65b9d-8965-47ba-bcd0-4660d1815206"
       }
     ],
-    "used_designators": "U1-12,J1,R1-21,#PWR1-95,#PWR99-114,L1-4,C1-25,C28-41,CN1-7,Card1,D1,LED1-2,USB1,X1-2,SW1",
+    "used_designators": "U1-12,J1,R1-21,#PWR1-95,#PWR99-114,L1-4,C1-25,C28-41,CN1-7,Card1,D1-2,LED1-2,USB1,X1-2,SW1,TH1",
     "variants": []
   },
   "sheets": [
