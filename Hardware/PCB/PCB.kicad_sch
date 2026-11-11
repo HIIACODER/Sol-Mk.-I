@@ -4560,267 +4560,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OG FCFILE:TS-1187A-B-A-B"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TS-1187A-B-A-B"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "XKB Connection(中国星坤)"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "TS-1187A-B-A-B"
-				(at 0 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C318884"
-				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Tactile Switches"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TS-1187A-B-A-B_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 0.76) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.76) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0.51)
-					(radius 0.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.79)
-					(radius 0.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.3) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OG FCFILE:TYPE-C16PIN2MD"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5840,6 +5579,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V1"
 			(power global)
 			(pin_numbers
@@ -6664,8 +6567,8 @@
 		(uuid "28058e4b-f657-4868-9b7f-77f9407a62e5")
 	)
 	(rectangle
-		(start 74.295 165.1)
-		(end 148.59 194.31)
+		(start 79.375 165.1)
+		(end 141.605 194.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -6700,8 +6603,8 @@
 		(uuid "78196839-6cda-4d6a-99d2-d996ee98121b")
 	)
 	(rectangle
-		(start 155.575 47.625)
-		(end 284.48 164.465)
+		(start 156.21 47.625)
+		(end 285.115 164.465)
 		(stroke
 			(width 0)
 			(type default)
@@ -6736,7 +6639,7 @@
 		(uuid "efff9f8b-303e-4f23-93d2-d61302c5c8d6")
 	)
 	(rectangle
-		(start 149.225 165.1)
+		(start 142.875 165.1)
 		(end 176.53 194.31)
 		(stroke
 			(width 0)
@@ -6761,7 +6664,7 @@
 	)
 	(text "Mounting"
 		(exclude_from_sim no)
-		(at 167.132 167.132 0)
+		(at 166.116 167.64 0)
 		(effects
 			(font
 				(size 3 3)
@@ -6898,6 +6801,12 @@
 		(uuid "028b1b14-c778-4277-a42d-ccae3732d4f0")
 	)
 	(junction
+		(at 179.07 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03708823-8f23-4081-abf3-2a8cd4215dd5")
+	)
+	(junction
 		(at 260.35 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6916,7 +6825,7 @@
 		(uuid "0cbf08bd-5b5f-4907-96c3-9fb0c49fb719")
 	)
 	(junction
-		(at 152.4 187.96)
+		(at 146.05 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "126eed4c-94ee-4ec8-b617-17386a142419")
@@ -6958,19 +6867,13 @@
 		(uuid "200647bd-3d87-4058-97ee-b42a7153e365")
 	)
 	(junction
-		(at 198.12 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20b8bc86-5608-4050-9a2e-e7960d692962")
-	)
-	(junction
 		(at 115.57 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "235880b6-639e-402e-8975-0fa1fb1f277e")
 	)
 	(junction
-		(at 152.4 172.72)
+		(at 146.05 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2767faac-4615-40e6-96ec-b03ee04b00a1")
@@ -7000,16 +6903,16 @@
 		(uuid "2e4f8779-488d-44be-bc79-92ecca019dc0")
 	)
 	(junction
-		(at 149.86 180.34)
+		(at 198.12 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30fb7fbc-aadd-4b70-ac7a-f4298f05f427")
+	)
+	(junction
+		(at 143.51 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "377ff0de-db4a-410d-a48a-a26535dd9055")
-	)
-	(junction
-		(at 255.27 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e412547-0049-4d5c-b074-1b05cbe84a66")
 	)
 	(junction
 		(at 111.76 34.29)
@@ -7030,6 +6933,12 @@
 		(uuid "50d028c9-b0ed-40c7-8f65-0aefcfac8bff")
 	)
 	(junction
+		(at 279.4 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51344110-8f54-48b4-837c-9087e69fa67f")
+	)
+	(junction
 		(at 226.06 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7042,22 +6951,16 @@
 		(uuid "57d23b15-d849-4f71-b879-4f5fe2efc121")
 	)
 	(junction
-		(at 198.12 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57e6c7cc-0d36-46f2-8631-dad55600ae27")
-	)
-	(junction
 		(at 78.74 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59e570c1-f60b-44cc-8f0e-aa3445c92e9a")
 	)
 	(junction
-		(at 274.32 133.35)
+		(at 278.13 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e06f187-b6cb-49ce-ac83-80a8c49227f8")
+		(uuid "5b0bd1d5-1bbc-4fb2-a57a-5312d857bba8")
 	)
 	(junction
 		(at 165.1 33.02)
@@ -7070,6 +6973,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64df3e9f-209d-4e5e-8991-29a37af0f377")
+	)
+	(junction
+		(at 279.4 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "699542cf-12f3-4827-8aa2-1ebef63a5e80")
 	)
 	(junction
 		(at 78.74 58.42)
@@ -7204,6 +7113,18 @@
 		(uuid "9c525abb-98b8-4de0-9f18-989c2d0ce537")
 	)
 	(junction
+		(at 198.12 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d5c2d7e-0df4-48e3-887a-d577d90511ce")
+	)
+	(junction
+		(at 269.24 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9eaf3bbf-da94-42cb-b1a1-51d8eae69b9e")
+	)
+	(junction
 		(at 115.57 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7250,6 +7171,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab480a6a-55fb-49bf-8370-4a3a9688665f")
+	)
+	(junction
+		(at 274.32 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acdada98-7574-4cad-95fe-e0f33810b243")
 	)
 	(junction
 		(at 142.24 127)
@@ -7336,6 +7263,12 @@
 		(uuid "c117e092-00ed-4698-816f-dc2a151a87ff")
 	)
 	(junction
+		(at 163.83 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2b5f299-4e86-4168-9f14-1fd453960436")
+	)
+	(junction
 		(at 33.02 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7366,12 +7299,6 @@
 		(uuid "ce359198-72f5-4aa8-b015-99ff0babc2df")
 	)
 	(junction
-		(at 279.4 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce8d8d18-7589-4130-9565-6cbba72c7e8f")
-	)
-	(junction
 		(at 115.57 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7394,6 +7321,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da26f4e7-61d9-42de-9c53-943115fc9226")
+	)
+	(junction
+		(at 269.24 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc853d45-2eaa-4b96-b46c-826450fbd295")
 	)
 	(junction
 		(at 143.51 54.61)
@@ -7456,12 +7389,6 @@
 		(uuid "f98c4f4f-0e73-49e6-9c18-5473f900bb4d")
 	)
 	(junction
-		(at 262.89 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fee94726-7083-4408-87f6-c21e9ef0954f")
-	)
-	(junction
 		(at 48.26 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7477,7 +7404,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 187.96) (xy 152.4 187.96)
+			(xy 143.51 187.96) (xy 146.05 187.96)
 		)
 		(stroke
 			(width 0)
@@ -7787,6 +7714,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 156.21) (xy 198.12 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159499b4-f4f6-40a1-9ef6-2c26bbec94ee")
+	)
+	(wire
+		(pts
 			(xy 146.05 54.61) (xy 143.51 54.61)
 		)
 		(stroke
@@ -7837,13 +7774,23 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 172.72) (xy 149.86 180.34)
+			(xy 143.51 172.72) (xy 143.51 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "17f5286e-e826-4a69-87f6-f4a8c047abb2")
+	)
+	(wire
+		(pts
+			(xy 198.12 161.29) (xy 207.01 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18db3b07-c53c-4cbd-b659-428fc1622aef")
 	)
 	(wire
 		(pts
@@ -7977,7 +7924,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 180.34) (xy 173.99 180.34)
+			(xy 143.51 180.34) (xy 173.99 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8027,6 +7974,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 156.21) (xy 279.4 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287c263c-8209-43f6-990c-ff099e1ee898")
+	)
+	(wire
+		(pts
 			(xy 267.97 133.35) (xy 274.32 133.35)
 		)
 		(stroke
@@ -8034,6 +7991,16 @@
 			(type default)
 		)
 		(uuid "299fa4c7-9b22-4bdc-a454-738aab6662bc")
+	)
+	(wire
+		(pts
+			(xy 194.31 67.31) (xy 196.85 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ab2d27-f5f0-4a38-95b0-82364313e317")
 	)
 	(wire
 		(pts
@@ -8127,7 +8094,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 180.34) (xy 149.86 187.96)
+			(xy 143.51 180.34) (xy 143.51 187.96)
 		)
 		(stroke
 			(width 0)
@@ -8207,6 +8174,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 66.04) (xy 198.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39170d00-a526-48b9-bf96-b6de2567374e")
+	)
+	(wire
+		(pts
 			(xy 26.67 158.75) (xy 26.67 157.48)
 		)
 		(stroke
@@ -8214,6 +8191,16 @@
 			(type default)
 		)
 		(uuid "392bc792-a358-4f1b-98c8-a16775e229b3")
+	)
+	(wire
+		(pts
+			(xy 194.31 86.36) (xy 194.31 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab83381-4470-419f-8822-3026b8304401")
 	)
 	(wire
 		(pts
@@ -8254,6 +8241,16 @@
 			(type default)
 		)
 		(uuid "3d802381-bf5c-42d5-9c24-7af605933420")
+	)
+	(wire
+		(pts
+			(xy 212.09 73.66) (xy 212.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dfeb4ae-9918-4da5-822f-a9f31fa7e080")
 	)
 	(wire
 		(pts
@@ -8347,7 +8344,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 138.43) (xy 279.4 138.43)
+			(xy 283.21 138.43) (xy 278.13 138.43)
 		)
 		(stroke
 			(width 0)
@@ -8487,13 +8484,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 156.21) (xy 207.01 156.21)
+			(xy 88.9 31.75) (xy 88.9 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50f3a075-c35a-4dd6-b23b-d32de89a5dd8")
+		(uuid "5219ad41-cbb6-44b1-8d76-f0507ea6e6db")
 	)
 	(wire
 		(pts
@@ -8514,6 +8511,16 @@
 			(type default)
 		)
 		(uuid "52df7281-5d04-4863-bdc9-1242744ecfc3")
+	)
+	(wire
+		(pts
+			(xy 198.12 156.21) (xy 207.01 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53035eb6-2bf9-4bb5-be0e-ca0e4765f49d")
 	)
 	(wire
 		(pts
@@ -8737,7 +8744,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 33.02) (xy 91.44 33.02)
+			(xy 279.4 161.29) (xy 285.75 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a67fa6-3382-48f7-99b5-f379d1e6f70a")
+	)
+	(wire
+		(pts
+			(xy 86.36 31.75) (xy 88.9 31.75)
 		)
 		(stroke
 			(width 0)
@@ -8864,16 +8881,6 @@
 			(type default)
 		)
 		(uuid "67569bb2-28f7-4468-b3b9-230fc30b1669")
-	)
-	(wire
-		(pts
-			(xy 189.23 156.21) (xy 198.12 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68990b46-d9ef-4ed8-a23b-114ac48b6f12")
 	)
 	(wire
 		(pts
@@ -9057,13 +9064,23 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 55.88) (xy 179.07 55.88)
+			(xy 195.58 55.88) (xy 187.96 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "77062c23-a94e-4b7a-a6dc-bf78ce28ef88")
+	)
+	(wire
+		(pts
+			(xy 196.85 67.31) (xy 196.85 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77aaa6e9-c1ce-4c5b-b184-a0ffb5556ca0")
 	)
 	(wire
 		(pts
@@ -9127,6 +9144,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 66.04) (xy 203.2 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d3b9981-2db2-4fe0-9f70-5cd8a298cfac")
+	)
+	(wire
+		(pts
 			(xy 265.43 132.08) (xy 262.89 132.08)
 		)
 		(stroke
@@ -9164,6 +9191,16 @@
 			(type default)
 		)
 		(uuid "7e6c49c3-0a53-4677-9e26-bb9e15fb856b")
+	)
+	(wire
+		(pts
+			(xy 184.15 67.31) (xy 185.42 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ecfcf29-9ca6-404d-8d12-2be70a5d35ca")
 	)
 	(wire
 		(pts
@@ -9257,16 +9294,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 133.35) (xy 283.21 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85970d07-bd47-4476-b32b-1b8c28b97a92")
-	)
-	(wire
-		(pts
 			(xy 62.23 158.75) (xy 55.88 158.75)
 		)
 		(stroke
@@ -9307,23 +9334,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 172.72) (xy 149.86 172.72)
+			(xy 146.05 172.72) (xy 143.51 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "88a22d13-5e56-431d-92cb-0ae97ac05f16")
-	)
-	(wire
-		(pts
-			(xy 212.09 77.47) (xy 212.09 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88bd3a20-a2f9-49bd-9fc5-5a584a78d21f")
 	)
 	(wire
 		(pts
@@ -9354,6 +9371,26 @@
 			(type default)
 		)
 		(uuid "89a37358-38ab-45a0-920c-20d9ec5921b4")
+	)
+	(wire
+		(pts
+			(xy 269.24 161.29) (xy 279.4 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a31c932-dad0-4f9b-b1be-262202d05da0")
+	)
+	(wire
+		(pts
+			(xy 278.13 133.35) (xy 283.21 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5e4ae8-7a13-4a3f-93e9-b96b0c480b2a")
 	)
 	(wire
 		(pts
@@ -9727,6 +9764,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 156.21) (xy 285.75 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf585c0-56f3-4291-a27e-0f30e9b5d077")
+	)
+	(wire
+		(pts
 			(xy 161.29 55.88) (xy 163.83 55.88)
 		)
 		(stroke
@@ -9767,7 +9814,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 133.35) (xy 279.4 133.35)
+			(xy 274.32 133.35) (xy 278.13 133.35)
 		)
 		(stroke
 			(width 0)
@@ -9937,7 +9984,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 134.62) (xy 255.27 144.78)
+			(xy 255.27 134.62) (xy 255.27 142.24)
 		)
 		(stroke
 			(width 0)
@@ -9974,16 +10021,6 @@
 			(type default)
 		)
 		(uuid "c615ee9c-e22e-40de-b508-c10d741991a8")
-	)
-	(wire
-		(pts
-			(xy 262.89 134.62) (xy 262.89 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7b33634-5355-43aa-8670-e7522b6dbba7")
 	)
 	(wire
 		(pts
@@ -10024,6 +10061,16 @@
 			(type default)
 		)
 		(uuid "cc40afd8-6016-4efd-93db-685ed366fba9")
+	)
+	(wire
+		(pts
+			(xy 182.88 55.88) (xy 179.07 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc624c60-dc4b-404b-ba30-2674ff3dd623")
 	)
 	(wire
 		(pts
@@ -10217,6 +10264,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 33.02) (xy 91.44 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4b6742-6dc5-4a08-b98c-3b90866fe43e")
+	)
+	(wire
+		(pts
 			(xy 39.37 21.59) (xy 39.37 25.4)
 		)
 		(stroke
@@ -10234,16 +10291,6 @@
 			(type default)
 		)
 		(uuid "dd68bb1c-50b9-4a10-871b-a164db8cbce7")
-	)
-	(wire
-		(pts
-			(xy 198.12 161.29) (xy 207.01 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddc8fc20-e89c-4c9a-a021-1870041cac21")
 	)
 	(wire
 		(pts
@@ -10284,6 +10331,16 @@
 			(type default)
 		)
 		(uuid "df6f04bd-ab55-42f6-b3ab-946a6a9dd100")
+	)
+	(wire
+		(pts
+			(xy 179.07 50.8) (xy 187.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc71e8c-ec9b-4911-9fdf-04e353d0b4f6")
 	)
 	(wire
 		(pts
@@ -10374,6 +10431,16 @@
 			(type default)
 		)
 		(uuid "e5bb40cd-75a5-4847-bb70-5f101ac56c7c")
+	)
+	(wire
+		(pts
+			(xy 204.47 73.66) (xy 212.09 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65ee290-3727-4066-a74f-a317b894f1ee")
 	)
 	(wire
 		(pts
@@ -10635,7 +10702,7 @@
 		)
 		(uuid "fe92aa16-a0ea-4669-96ec-308aef00d0c1")
 	)
-	(label "DNCO"
+	(label "DPCO"
 		(at 66.04 78.74 180)
 		(effects
 			(font
@@ -10655,7 +10722,7 @@
 		)
 		(uuid "05004b21-87f7-4752-a06c-fa58c152fc98")
 	)
-	(label "DNCI"
+	(label "DPCI"
 		(at 20.32 83.82 0)
 		(effects
 			(font
@@ -10735,7 +10802,7 @@
 		)
 		(uuid "235abd30-f165-4e33-a4e8-8dac731c36b5")
 	)
-	(label "DPCI"
+	(label "DNCI"
 		(at 20.32 68.58 0)
 		(effects
 			(font
@@ -10875,16 +10942,6 @@
 		)
 		(uuid "4f5b9d02-a471-4163-acb2-47cdd75389e2")
 	)
-	(label "BMCSB"
-		(at 212.09 77.47 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5450cb6a-ac40-4aa7-8f94-563d6254e043")
-	)
 	(label "DPCO"
 		(at 212.09 134.62 90)
 		(effects
@@ -10975,7 +11032,7 @@
 		)
 		(uuid "7d267cc1-2ad5-41f3-a68f-dbc8d47bfc49")
 	)
-	(label "DPCO"
+	(label "DNCO"
 		(at 66.04 63.5 180)
 		(effects
 			(font
@@ -11245,6 +11302,16 @@
 		)
 		(uuid "c6abce86-3c6d-4a9f-ad83-67cf52a4b61f")
 	)
+	(label "PG-BC"
+		(at 194.31 77.47 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cae59447-de95-4ae3-a932-fe6d43ff7abd")
+	)
 	(label "INT2_IMU"
 		(at 254 35.56 180)
 		(effects
@@ -11326,7 +11393,7 @@
 		(uuid "e90bb8a8-4e0f-4c9b-926b-b8ebb6d1d944")
 	)
 	(label "XOUT"
-		(at 184.15 55.88 180)
+		(at 195.58 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11419,7 +11486,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 269.24 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -11701,7 +11768,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 260.35 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11783,7 +11850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc_footprints:C42455356_IND-SMD_APH252012C3R3MP01"
 			(at 119.38 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11942,7 +12009,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 217.17 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12100,7 +12167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 62.23 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -12336,7 +12403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 90.17 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12646,7 +12713,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 152.4 170.18 0)
+		(at 146.05 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12657,7 +12724,7 @@
 		(fields_autoplaced yes)
 		(uuid "14085ba3-c4ce-4caa-a6d5-d13f43ed2b7e")
 		(property "Reference" "H1"
-			(at 154.94 167.6399 0)
+			(at 148.59 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12668,7 +12735,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 154.94 170.1799 0)
+			(at 148.59 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12678,8 +12745,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.4 170.18 0)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 146.05 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12690,7 +12757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 170.18 0)
+			(at 146.05 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12701,7 +12768,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 152.4 170.18 0)
+			(at 146.05 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12858,7 +12925,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 80.01 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13017,7 +13084,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 127 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13067,7 +13134,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 118.11 63.5 180)
+		(at 118.11 63.5 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13075,10 +13143,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2170a4d1-e60f-41f1-95af-eb54bda0dbf6")
 		(property "Reference" "C4"
-			(at 120.65 62.2235 0)
+			(at 115.57 62.2235 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13089,7 +13156,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 120.65 64.7635 0)
+			(at 115.57 64.7635 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13335,7 +13402,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 170.18 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13417,7 +13484,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13603,7 +13670,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 64.77 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -13646,6 +13713,84 @@
 			(project "PCB"
 				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 50.8 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ce9ff18-72d3-4f21-ad45-110c8df2628e")
+		(property "Reference" "#PWR081"
+			(at 187.96 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de6591c1-39cc-4e89-a3ea-9ac65add9b2f")
+		)
+		(instances
+			(project "PCB"
+				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -13840,7 +13985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 138.43 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -13890,7 +14035,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 87.63 176.53 180)
+		(at 87.63 176.53 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13900,7 +14046,7 @@
 		(dnp no)
 		(uuid "2f5dec1b-7189-4a47-b10d-f9b56972da83")
 		(property "Reference" "C20"
-			(at 82.042 175.26 0)
+			(at 93.218 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13911,7 +14057,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 79.502 177.292 0)
+			(at 95.758 177.292 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13921,7 +14067,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 87.63 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -14080,7 +14226,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 269.24 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -14471,7 +14617,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 133.35 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -14881,7 +15027,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc_footprints:C19273150_LED0603-RD"
 			(at 132.08 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -15267,7 +15413,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 120.65 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -15316,6 +15462,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 179.07 53.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a2eb6e6-101d-4c07-a434-e7b5e8a88b3a")
+		(property "Reference" "C39"
+			(at 180.848 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "15pF"
+			(at 181.864 53.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 179.07 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "052a1b04-6c9b-4511-9cdd-a82109d73324")
+		)
+		(pin "2"
+			(uuid "25c09666-46df-494b-bb20-5026c2c0d016")
+		)
+		(instances
+			(project "PCB"
+				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 191.77 137.16 0)
 		(unit 1)
@@ -15348,7 +15576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15398,7 +15626,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 152.4 190.5 180)
+		(at 146.05 190.5 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15409,7 +15637,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b6dd258-75b4-407c-b8a6-2319119200ea")
 		(property "Reference" "H4"
-			(at 154.94 190.4999 0)
+			(at 148.59 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15420,7 +15648,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 154.94 193.0399 0)
+			(at 148.59 193.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15430,8 +15658,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.4 190.5 0)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 146.05 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15442,7 +15670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 190.5 0)
+			(at 146.05 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15453,7 +15681,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 152.4 190.5 0)
+			(at 146.05 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15477,7 +15705,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 90.17 87.63 90)
+		(at 90.17 87.63 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15497,7 +15726,7 @@
 			)
 		)
 		(property "Value" "5.23K"
-			(at 89.154 85.852 90)
+			(at 91.186 85.852 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15506,7 +15735,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 90.17 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15663,7 +15892,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 137.16 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -15790,6 +16019,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 285.75 158.75 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5368e33f-da6c-47fe-830a-557a8584627d")
+		(property "Reference" "C42"
+			(at 283.972 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 283.21 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 285.75 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 285.75 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "323af1f2-e4eb-4633-8d18-60778783e7fb")
+		)
+		(pin "2"
+			(uuid "9b53f8d3-6a73-4940-8a9b-4b24f1e0abd6")
+		)
+		(instances
+			(project "PCB"
+				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V1")
 		(at 229.87 149.86 0)
 		(unit 1)
@@ -15901,7 +16213,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 55.88 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -16443,7 +16755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 30.48 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -16755,7 +17067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 137.16 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -16993,7 +17305,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 142.24 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -17042,88 +17354,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 198.12 158.75 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6b6da40a-49d9-4078-a8e1-96032098f96a")
-		(property "Reference" "C27"
-			(at 199.898 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 199.644 159.766 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 198.12 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b04e4fe7-c66b-40e6-a8e0-319f70316a31")
-		)
-		(pin "2"
-			(uuid "28446d1b-8b0d-42a0-a4fa-c59d674feecc")
-		)
-		(instances
-			(project "PCB"
-				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 138.43 29.21 90)
 		(unit 1)
@@ -17154,7 +17384,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 138.43 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -17313,7 +17543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 139.7 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -17472,7 +17702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 26.67 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -17551,7 +17781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 30.48 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -17711,7 +17941,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 234.95 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -17868,7 +18098,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 82.55 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -18027,7 +18257,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -18335,7 +18565,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 62.23 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -18416,7 +18646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 133.35 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18702,6 +18932,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 194.31 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90e36634-7452-4d9b-a837-015b159558a4")
+		(property "Reference" "#PWR080"
+			(at 194.31 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 194.31 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 194.31 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87dad245-1586-45e8-a819-efbbdde12f17")
+		)
+		(instances
+			(project "PCB"
+				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 146.05 57.15 180)
 		(unit 1)
@@ -18734,7 +19041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 146.05 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -18890,7 +19197,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 124.46 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -18969,7 +19276,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 124.46 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -19283,7 +19590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 46.482 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -19520,7 +19827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 55.88 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -20107,6 +20414,170 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 163.83 63.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4df0330-6b8c-415d-a50d-49c8e5f16703")
+		(property "Reference" "C38"
+			(at 165.608 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "15pF"
+			(at 156.718 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 163.83 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 163.83 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e2e7f72-2f9c-426f-9847-f845023d0388")
+		)
+		(pin "2"
+			(uuid "46768731-6f85-4cea-b7dc-62671a97393c")
+		)
+		(instances
+			(project "PCB"
+				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 279.4 158.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a64015de-656c-4ca6-adef-7ab362966081")
+		(property "Reference" "C40"
+			(at 281.178 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 281.94 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 279.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 279.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49399f3f-ffff-4594-8fee-509dc5823f9a")
+		)
+		(pin "2"
+			(uuid "e29aa5fe-235f-4c13-b4bd-d1d1d51fb26c")
+		)
+		(instances
+			(project "PCB"
+				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 251.46 158.75 180)
 		(unit 1)
 		(body_style 1)
@@ -20139,7 +20610,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 251.46 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -20182,6 +20653,88 @@
 			(project "PCB"
 				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 158.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac03ab23-e826-40a4-88af-1298a1b68eb8")
+		(property "Reference" "C41"
+			(at 199.898 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 199.644 159.766 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 198.12 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a0a71ac-a3d2-4446-a7c4-5f7fb58d0b53")
+		)
+		(pin "2"
+			(uuid "7c347d5c-1c22-4945-8edc-110385c8e4aa")
+		)
+		(instances
+			(project "PCB"
+				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -20376,7 +20929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 78.74 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -20455,7 +21008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 137.16 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -20612,7 +21165,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 80.01 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -20673,7 +21226,6 @@
 		(uuid "b7d09406-5f04-4f38-a90d-c91c9e635e3b")
 		(property "Reference" "C25"
 			(at 269.748 129.54 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20694,7 +21246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0603"
 			(at 267.97 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -20776,7 +21328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 207.01 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -20934,7 +21486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 170.18 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -21094,7 +21646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 62.23 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -21176,7 +21728,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 242.57 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -21255,7 +21807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 60.96 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -21620,7 +22172,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 33.02 0)
+		(at 86.36 31.75 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -21631,7 +22183,7 @@
 		(dnp no)
 		(uuid "c25491de-d602-423e-b350-deba549e0177")
 		(property "Reference" "#PWR013"
-			(at 88.9 39.37 0)
+			(at 86.36 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21642,7 +22194,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 36.83 0)
+			(at 86.36 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21652,7 +22204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 33.02 0)
+			(at 86.36 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21663,7 +22215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 33.02 0)
+			(at 86.36 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21674,7 +22226,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 33.02 0)
+			(at 86.36 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21852,127 +22404,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OG FCFILE:TS-1187A-B-A-B")
-		(at 257.81 139.7 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c500df68-2ecf-40cb-9a80-4fa45e038ccc")
-		(property "Reference" "SW1"
-			(at 264.16 138.4299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS-1187A-B-A-B"
-			(at 264.16 140.9699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
-			(at 270.51 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
-			(at 273.05 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XKB Connection(中国星坤)"
-			(at 275.59 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TS-1187A-B-A-B"
-			(at 278.13 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C318884"
-			(at 280.67 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "1e596503-39ea-4ed4-9a9e-30e0fbed8752")
-		)
-		(pin "2"
-			(uuid "3516d441-46e2-40dc-8512-e13aa4368a1a")
-		)
-		(pin "4"
-			(uuid "fb109f4d-7368-4648-9050-d62d14992ca8")
-		)
-		(pin "1"
-			(uuid "02466c18-96fe-47d2-bd5e-c0dfeea8cd65")
-		)
-		(instances
-			(project "PCB"
-				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 73.66 46.99 0)
 		(unit 1)
@@ -22005,7 +22436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 73.66 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -22269,7 +22700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc_footprints:C42411119_IND-SMD_L2_0-W1_6_AOTA-B201610S3R3-101-T"
 			(at 232.41 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -22312,6 +22743,86 @@
 			(project "PCB"
 				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 185.42 55.88 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9a475eb-4400-4d92-9995-789bc0bf6b29")
+		(property "Reference" "R7"
+			(at 181.864 55.372 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 184.15 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 185.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 185.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06119d52-5ce0-4bc2-9b57-460715216c2b")
+		)
+		(pin "2"
+			(uuid "70424c51-4ac1-4d2c-9aa4-cb2571006085")
+		)
+		(instances
+			(project "PCB"
+				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -22428,7 +22939,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 165.1 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -22587,7 +23098,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 26.67 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -22716,7 +23227,6 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 179.07 60.96 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22824,7 +23334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 62.23 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -22873,6 +23383,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 260.35 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2ebaa09-ee4a-4370-9bc9-c9cf54880506")
+		(property "Reference" "SW1"
+			(at 260.35 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 260.35 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C720477_SW-SMD_L3_9-W3_0-P4_45"
+			(at 260.35 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 260.35 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b37ba3ca-03a6-4e61-aa31-bde841428c84")
+		)
+		(pin "2"
+			(uuid "914632f9-7167-4022-ae7e-cf5933896062")
+		)
+		(instances
+			(project "PCB"
+				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 80.01 129.54 90)
 		(unit 1)
@@ -22903,7 +23493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 80.01 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -22984,7 +23574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 255.27 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -23034,7 +23624,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 152.4 185.42 0)
+		(at 146.05 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23045,7 +23635,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8c47b95-9b2a-46de-a2ea-3c0ad616186b")
 		(property "Reference" "H3"
-			(at 154.94 182.8799 0)
+			(at 148.59 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23056,7 +23646,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 154.94 185.4199 0)
+			(at 148.59 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23066,8 +23656,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.4 185.42 0)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 146.05 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23078,7 +23668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 185.42 0)
+			(at 146.05 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23089,7 +23679,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 152.4 185.42 0)
+			(at 146.05 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23267,6 +23857,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 204.47 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc8267b2-212e-4c5b-b7e0-fae74aaab58e")
+		(property "Reference" "D4"
+			(at 208.28 70.1674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Signal LED1"
+			(at 208.28 72.7074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C22371297_LED0603-RD_GREEN"
+			(at 204.47 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 204.47 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 204.47 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fbce7217-ccd1-4707-9e8f-abf89f0f642f")
+		)
+		(pin "1"
+			(uuid "245eb98e-c712-40b8-919f-5771d4b51060")
+		)
+		(instances
+			(project "PCB"
+				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 55.88 49.53 0)
 		(unit 1)
@@ -23299,7 +23981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 54.102 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -23381,7 +24063,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 189.23 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -23431,7 +24113,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 144.78 0)
+		(at 265.43 142.24 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -23442,7 +24124,7 @@
 		(dnp no)
 		(uuid "df5c4d1b-21dc-4007-8434-5e4bb78e7676")
 		(property "Reference" "#PWR053"
-			(at 262.89 151.13 0)
+			(at 265.43 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23453,7 +24135,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 148.59 0)
+			(at 265.43 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23463,7 +24145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 144.78 0)
+			(at 265.43 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23474,7 +24156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 144.78 0)
+			(at 265.43 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23485,7 +24167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 144.78 0)
+			(at 265.43 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23728,7 +24410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 60.96 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -23887,7 +24569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 85.09 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -24117,6 +24799,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 200.66 66.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e84566f6-12eb-4d17-92a0-3434db88af6e")
+		(property "Reference" "R30"
+			(at 200.66 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "130"
+			(at 200.66 68.072 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 200.66 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 200.66 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6a5cc6b-ffb0-4d9a-ad0c-a8b7769818be")
+		)
+		(pin "2"
+			(uuid "fc3dfe5b-cd07-4274-b4c5-fea61eaf8679")
+		)
+		(instances
+			(project "PCB"
+				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 262.89 132.08 0)
 		(unit 1)
@@ -24301,7 +25062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 64.77 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -24429,7 +25190,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 152.4 175.26 180)
+		(at 146.05 175.26 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24440,7 +25201,7 @@
 		(fields_autoplaced yes)
 		(uuid "f04bc0e6-261f-41f8-8e07-4ad10ea50558")
 		(property "Reference" "H2"
-			(at 154.94 175.2599 0)
+			(at 148.59 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24451,7 +25212,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 154.94 177.7999 0)
+			(at 148.59 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24461,8 +25222,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.4 175.26 0)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 146.05 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24473,7 +25234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 175.26 0)
+			(at 146.05 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24484,7 +25245,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 152.4 175.26 0)
+			(at 146.05 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24585,7 +25346,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 279.4 135.89 180)
+		(at 278.13 135.89 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24595,8 +25356,7 @@
 		(dnp no)
 		(uuid "f1545839-9b7d-49eb-ab15-d0095b386d12")
 		(property "Reference" "C26"
-			(at 281.178 134.62 0)
-			(hide yes)
+			(at 279.908 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24607,7 +25367,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 279.908 137.414 0)
+			(at 278.638 137.414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24617,8 +25377,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 279.4 135.89 0)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 278.13 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24629,7 +25389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 135.89 0)
+			(at 278.13 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24640,7 +25400,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 279.4 135.89 0)
+			(at 278.13 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24743,6 +25503,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 163.83 66.04 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f1ecb6a4-7d18-4794-9d4d-6d79e623a0cb")
+		(property "Reference" "#PWR082"
+			(at 163.83 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ecf970d5-42f0-4146-a431-35d58d2330d7")
+		)
+		(instances
+			(project "PCB"
+				(path "/baf65b9d-8965-47ba-bcd0-4660d1815206"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 226.06 158.75 180)
 		(unit 1)
@@ -24776,7 +25614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 226.06 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -25243,7 +26081,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 260.35 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -25557,7 +26395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 96.52 74.93 0)
 			(hide yes)
 			(show_name no)
